@@ -8,7 +8,7 @@ RACINE_PROJET: Path = Path(__file__).parent.parent
 
 DB_PATH: str =str(RACINE_PROJET / "styleshop.db") # type: ignore
 
-OPENAI_API_KEY = str = os.getenv("OPENAI_API_KEY","")
+OPENAI_API_KEY : str = os.getenv("OPENAI_API_KEY","")
 
 LLM_MODEL: str = "gpt-4o-mini" # type: ignore
 LLM_TEMPERATURE: float =0.3
